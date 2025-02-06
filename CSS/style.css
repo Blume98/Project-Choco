@@ -56,10 +56,21 @@ button {
   color: #fd9222;
 }
 
+.container {
+  width: 100%;
+  max-width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /* <!-- --------HEADER------- --> */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 32px;
 }
+
 .nav-header {
 }
 .link-logo {
@@ -90,8 +101,13 @@ button {
 /* <!--------SECTION HERO---- --> */
 
 .section-hero {
+  padding-bottom: 80px;
+}
+
+.container-hero {
   border-radius: 30px;
-  background: rgba(17, 17, 17, 0.6);
+  background-color: rgba(17, 17, 17, 0.6);
+  padding: 381px 40px 40px 40px;
 }
 
 .title-hero {
@@ -100,6 +116,8 @@ button {
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  margin-bottom: 32px;
+  max-width: 484px;
 }
 
 .button-hero {
@@ -132,6 +150,8 @@ button {
 
 .section-features {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .title-features {
@@ -147,6 +167,7 @@ button {
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  padding-bottom: 18px;
 }
 
 .features-text {
@@ -159,6 +180,7 @@ button {
 /* <!-- ----SECTION TASTE---- --> */
 
 .section-taste {
+  padding-top: 120px;
 }
 
 .taste-title {
@@ -166,12 +188,18 @@ button {
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-align: center;
+  max-width: 412px;
+  margin: 0 auto 28px;
 }
 
 .taste-text {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  text-align: center;
+  max-width: 486px;
+  margin: 0 auto 50px;
 }
 
 .taste-list {
@@ -189,6 +217,7 @@ button {
 /* <!-- -----SECTION MADE---- --> */
 
 .section-made {
+  padding-top: 120px;
 }
 
 .made-title {
@@ -196,6 +225,8 @@ button {
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 50px;
 }
 
 .made-img {
@@ -204,6 +235,7 @@ button {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
+  margin-bottom: 28px;
 }
 .made-list {
 }
@@ -218,6 +250,7 @@ button {
 /* <!-- --SECTION PRODUCTS--- --> */
 
 .section-products {
+  padding-top: 120px;
 }
 .products-title {
   font-size: 24px;
@@ -225,12 +258,21 @@ button {
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 50px;
 }
 .products-list {
 }
 .products-item {
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
+  max-width: 270px;
+  padding: 32px 20px;
 }
 .products-img {
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 .products-subtitle {
   font-size: 18px;
@@ -238,6 +280,8 @@ button {
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2px;
 }
 
 .products-text {
@@ -245,28 +289,49 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.24px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .products-btn {
+  display: block;
   color: #111;
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
+  margin: 0 auto;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
+  padding: 8px 20px;
 }
 
 /* <!-- ----SECTION SELLERS-- --> */
 
 .section-sellers {
+  padding-top: 120px;
 }
 .sellers-title {
   font-weight: 600;
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 50px;
 }
 .sellers-list {
 }
+
+.sellers-item {
+  max-width: 368px;
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid rgba(17, 17, 17, 0.1);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  border-left: 1px solid rgba(17, 17, 17, 0.1);
+}
+
 .sellers-img {
+  margin-bottom: 28px;
 }
 .sellers-text {
   font-size: 18px;
@@ -274,29 +339,47 @@ button {
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  padding-bottom: 28px;
+  text-align: center;
 }
 
 /* <!-- ----SECTION LOVED---- --> */
 
 .section-loved {
+  padding-top: 120px;
+  margin-bottom: 120px;
 }
 .loved-title {
   font-weight: 600;
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 91px;
 }
 .loved-list {
+  margin-bottom: 50px;
 }
 .loved-item {
+  max-width: 360px;
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
+  box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+  padding: 56px 24px 24px;
 }
 .loved-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 18px;
 }
 
 .loved-subtitle {
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.33; /* 133.333% */
+  line-height: 1.33;
+  margin-bottom: 24px;
+  text-align: center;
 }
 
 .loved-text {
@@ -305,12 +388,19 @@ button {
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  text-align: center;
 }
 .loved-btn {
+  display: block;
   color: #111;
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  margin: 0 auto;
+  border-radius: 100px;
+  border: 1px solid #fd9222;
+  padding: 14px 40px;
+  background-color: #fff;
 }
 
 /* <!-- -------FOOTER-------- --> */
@@ -318,6 +408,8 @@ button {
 .footer {
   background-color: #1e1823;
   color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer-text {
@@ -376,6 +468,11 @@ button {
 }
 
 .input-email {
+  padding: 14px 24px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+  color: #fff;
 }
 .footer-btn {
   background-color: #fd9222;
@@ -383,4 +480,6 @@ button {
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
+  padding: 17px 40px;
+  border-radius: 100px;
 }
