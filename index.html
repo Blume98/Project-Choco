@@ -22,15 +22,15 @@
   <body>
     <!-- --------HEADER------- -->
     <header class="header">
-      <div class="container">
+      <div class="container container-header">
         <nav class="nav-header">
           <a href="index.html" class="link-logo">
             <span>SIMPLY</span> CHOCOLATE <img src="./img/header/chocolate.svg" alt="icon-choco"
           /></a>
           <ul class="nav-list">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">How it’s made?</a></li>
-            <li class="nav-item"><a href="#">Chocolate is loved</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">How it’s made?</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Chocolate is loved</a></li>
           </ul>
         </nav>
         <address class="header-adress">
@@ -58,8 +58,11 @@
             Treat yourself or a loved one to <br />
             our finest ingredients for a moment of pure delight!
           </h1>
-          <button type="button" class="button-hero">Buy now</button><a href="" class="link-hero">How it’s made </a
-          ><a href="" class="sccroll-hero">scroll down <img src="" alt="" /></a>
+          <div class="container-hero-btn">
+            <button type="button" class="button-hero">Buy now</button>
+            <a href="#made" class="link-hero">How it’s made </a>
+            <a href="#footer" class="sccroll-hero">scroll down <img src="" alt="" /></a>
+          </div>
         </div>
       </section>
       <!-- --------------------------------- -->
@@ -107,31 +110,37 @@
           </p>
           <ul class="taste-list">
             <li class="taste-item">
-              <img src="./img/taste/img-choco.png" alt="MILK CHOCOLATE" width="214" height="160" />
+              <img class="taste-img" src="./img/taste/img-choco.png" alt="MILK CHOCOLATE" width="214" height="160" />
               <h3 class="taste-subtitle">MILK CHOCOLATE</h3>
             </li>
             <li class="taste-item">
-              <img src="./img/taste/img-milk.png" alt="MILK" width="214" height="160" />
+              <img class="taste-img" src="./img/taste/img-milk.png" alt="MILK" width="214" height="160" />
               <h3 class="taste-subtitle">MILK</h3>
             </li>
             <li class="taste-item">
-              <img src="./img/taste/img-nuts.png" alt="NUTS" width="214" height="160" />
+              <img class="taste-img" src="./img/taste/img-nuts.png" alt="NUTS" width="214" height="160" />
               <h3 class="taste-subtitle">NUTS</h3>
             </li>
             <li class="taste-item">
-              <img src="./img/taste/img-semi.png" alt="SEMI - SWEET CHOCOLATE" width="214" height="160" />
+              <img
+                class="taste-img"
+                src="./img/taste/img-semi.png"
+                alt="SEMI - SWEET CHOCOLATE"
+                width="214"
+                height="160"
+              />
               <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
             </li>
             <li class="taste-item">
-              <img src="./img/taste/img-cacao.png" alt="CACAO" width="214" height="160" />
+              <img class="taste-img" src="./img/taste/img-cacao.png" alt="CACAO" width="214" height="160" />
               <h3 class="taste-subtitle">CACAO</h3>
             </li>
             <li class="taste-item">
-              <img src="./img/taste/img-raspb.png" alt="RASPBERRY" width="214" height="160" />
+              <img class="taste-img" src="./img/taste/img-raspb.png" alt="RASPBERRY" width="214" height="160" />
               <h3 class="taste-subtitle">RASPBERRY</h3>
             </li>
             <li class="taste-item">
-              <img src="./img/taste/img-coco.png" alt="COCONUT OIL" width="214" height="160" />
+              <img class="taste-img" src="./img/taste/img-coco.png" alt="COCONUT OIL" width="214" height="160" />
               <h3 class="taste-subtitle">COCONUT OIL</h3>
             </li>
           </ul>
@@ -139,33 +148,40 @@
       </section>
       <!-- --------------------- -->
       <!-- -----SECTION MADE---- -->
-      <section class="section-made">
+      <section id="made" class="section-made">
         <div class="container">
           <h2 class="made-title span-orange">hOW IT’S <span>made?</span></h2>
-          <img src="./img/made/choko.jpg" alt="choko" class="made-img" />
-          <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
-          <ul class="made-list">
-            <li class="made-item">
-              <p class="made-text">
-                Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
-              </p>
-            </li>
-            <li class="made-item">
-              <p class="made-text">At the same time, prepare a water bath. Melt the butter on it.</p>
-            </li>
-            <li class="made-item">
-              <p class="made-text">
-                "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the
-                mass becomes uniform and silky.
-              </p>
-            </li>
-            <li class="made-item"><p class="made-text">Heat the mixture over low heat, letting it barely boil.</p></li>
-            <li class="made-item">
-              <p class="made-text">
-                Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.
-              </p>
-            </li>
-          </ul>
+          <div class="made-content">
+            <img src="./img/made/choko.jpg" alt="choko" class="made-img" />
+            <div class="made-text-container">
+              <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
+              <ul class="made-list">
+                <li class="made-item">
+                  <p class="made-text">
+                    Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
+                  </p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">At the same time, prepare a water bath. Melt the butter on it.</p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">
+                    "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the
+                    mass becomes uniform and silky.
+                  </p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">Heat the mixture over low heat, letting it barely boil.</p>
+                </li>
+                <li class="made-item">
+                  <p class="made-text">
+                    Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and
+                    harden.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <!-- --------------------- -->
@@ -282,45 +298,53 @@
     </main>
     <!-- --------------------- -->
     <!-- -------FOOTER-------- -->
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="container">
-        <p class="footer-text span-orange"><span>Chocolate</span> a delicious cure for a bad day</p>
-        <p class="social-text">Social networks</p>
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
-              ><img src="./img/header/instagram.svg" alt="inst" class="social-svg"
-            /></a>
-          </li>
-          <li class="social-item">
-            <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
-              ><img src="./img/header/facebook.svg" alt="fb" class="social-svg"
-            /></a>
-          </li>
-          <li class="social-item">
-            <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
-              ><img src="./img/header/twitter.svg" alt="twitter" class="social-svg"
-            /></a>
-          </li>
-        </ul>
-        <p class="contact-text">Contact us</p>
-        <address class="footer-address">
-          <ul class="address-list">
-            <li class="address-item"><a href="tel:+380684439426" class="address-link">+380 (68) 443-94-26</a></li>
-            <li class="address-item">
-              <a href="mailto:simplychoc@gmail.com" class="address-link">simplychoc@gmail.com</a>
-            </li>
-          </ul>
-        </address>
-        <nav class="footer-nav">
-          <ul class="footer-nav-list">
-            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
-            <li class="footer-nav-item"><a href="#" class="footer-nav-link">How it’s made?</a></li>
-            <li class="footer-nav-item"><a href="#" class="footer-nav-link">Chocolate is loved</a></li>
-          </ul>
-        </nav>
-        <input type="email" placeholder="Enter your email" class="input-email" />
-        <button type="button" class="footer-btn">Subscribe</button>
+        <div class="upper-container-footer">
+          <p class="footer-text span-orange"><span>Chocolate</span> a delicious cure for a bad day</p>
+          <div class="social-container">
+            <p class="social-text">Social networks</p>
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
+                  ><img src="./img/header/instagram.svg" alt="inst" class="social-svg"
+                /></a>
+              </li>
+              <li class="social-item">
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
+                  ><img src="./img/header/facebook.svg" alt="fb" class="social-svg"
+                /></a>
+              </li>
+              <li class="social-item">
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
+                  ><img src="./img/header/twitter.svg" alt="twitter" class="social-svg"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-container">
+            <p class="contact-text">Contact us</p>
+            <address class="footer-address">
+              <ul class="address-footer-list">
+                <li class="address-item"><a href="tel:+380684439426" class="address-link">+380 (68) 443-94-26</a></li>
+                <li class="address-item">
+                  <a href="mailto:simplychoc@gmail.com" class="address-link">simplychoc@gmail.com</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+        <div class="lower-container-footer">
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
+              <li class="footer-nav-item"><a href="#" class="footer-nav-link">How it’s made?</a></li>
+              <li class="footer-nav-item"><a href="#" class="footer-nav-link">Chocolate is loved</a></li>
+            </ul>
+          </nav>
+          <input type="email" placeholder="Enter your email" class="input-email" />
+          <button type="button" class="footer-btn">Subscribe</button>
+        </div>
       </div>
     </footer>
   </body>
