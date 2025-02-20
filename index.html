@@ -36,13 +36,22 @@
         <address class="header-adress">
           <ul class="address-list">
             <li class="address-item">
-              <a href="" rel="noopener noreferrer"><img src="./img/header/instagram.svg" alt="inst" /></a>
+              <a href="" rel="noopener noreferrer">
+                <svg width="24" height="24" class="header-soc-icons">
+                  <use href="./img/choko-proj.svg#icon-instagram"></use></svg
+              ></a>
             </li>
             <li class="address-item">
-              <a href="" rel="noopener noreferrer"><img src="./img/header/facebook.svg" alt="fb" /></a>
+              <a href="" rel="noopener noreferrer">
+                <svg width="24" height="24" class="header-soc-icons">
+                  <use href="./img/choko-proj.svg#icon-facebook"></use></svg
+              ></a>
             </li>
             <li class="address-item">
-              <a href="" rel="noopener noreferrer"><img src="./img/header/twitter.svg" alt="twitter" /></a>
+              <a href="" rel="noopener noreferrer">
+                <svg width="24" height="24" class="header-soc-icons">
+                  <use href="./img/choko-proj.svg#icon-twitter"></use></svg
+              ></a>
             </li>
           </ul>
         </address>
@@ -61,7 +70,15 @@
           <div class="container-hero-btn">
             <button type="button" class="button-hero">Buy now</button>
             <a href="#made" class="link-hero">How it’s made </a>
-            <a href="#footer" class="sccroll-hero">scroll down <img src="" alt="" /></a>
+            <div class="scroll-link-container">
+              <a href="#footer" class="scroll-hero"
+                ><p class="scroll-hero-text">scroll down</p>
+                <div class="scroll-svg-container">
+                  <svg width="22" height="22" class="scroll-hero-svg">
+                    <use href="./img/choko-proj.svg#icon-angle"></use>
+                  </svg></div
+              ></a>
+            </div>
           </div>
         </div>
       </section>
@@ -72,6 +89,11 @@
           <h2 class="title-features visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-item">
+              <div class="features-svg-container">
+                <svg width="38" height="38" class="features-svg">
+                  <use href="./img/choko-proj.svg#icon-chocolate-bar"></use>
+                </svg>
+              </div>
               <h3 class="features-subtitle">Unsurpassed taste</h3>
               <p class="features-text">
                 Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent
@@ -80,6 +102,11 @@
               </p>
             </li>
             <li class="features-item">
+              <div class="features-svg-container">
+                <svg width="38" height="38" class="features-svg">
+                  <use href="./img/choko-proj.svg#icon-Coin"></use>
+                </svg>
+              </div>
               <h3 class="features-subtitle">Affordable price</h3>
               <p class="features-text">
                 Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of
@@ -88,6 +115,11 @@
               </p>
             </li>
             <li class="features-item">
+              <div class="features-svg-container">
+                <svg width="38" height="38" class="features-svg">
+                  <use href="./img/choko-proj.svg#icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="features-subtitle">Own production</h3>
               <p class="features-text">
                 We take pride in our own production process, ensuring that every step is carefully crafted to
@@ -248,15 +280,42 @@
           <h2 class="sellers-title span-orange"><span>tOp</span> Sellers</h2>
           <ul class="sellers-list">
             <li class="sellers-item">
-              <img src="./img/top-sellers/choco-nuts.jpg" alt="CHOCOLATE WITH NUTS" class="sellers-img" />
+              <div class="sellers-cover-wrap">
+                <img src="./img/top-sellers/choco-nuts.jpg" alt="CHOCOLATE WITH NUTS" class="sellers-img" />
+                <div class="sellers-text-wrap">
+                  <p class="sellers-cover-text">
+                    Chocolate with nuts is a delectable combination that brings together the smoothness of chocolate and
+                    the crunchiness of nuts. Whether it's milk chocolate, dark chocolate, or white chocolate, the
+                    addition of nuts adds a whole new dimension of flavor and texture.
+                  </p>
+                </div>
+              </div>
               <p class="sellers-text">CHOCOLATE WITH NUTS</p>
             </li>
             <li class="sellers-item">
-              <img src="./img/top-sellers/choco-fruits.jpg" alt="CHOCOLATE WITH FRUITS" class="sellers-img" />
+              <div class="sellers-cover-wrap">
+                <img src="./img/top-sellers/choco-fruits.jpg" alt="CHOCOLATE WITH FRUITS" class="sellers-img" />
+                <div class="sellers-text-wrap">
+                  <p class="sellers-cover-text">
+                    Chocolate with fruit is an unbeatable combination of two of the tastiest things in the world. This
+                    dessert combines delicate and aromatic chocolate with fresh and juicy fruits, creating a true poetry
+                    of taste.
+                  </p>
+                </div>
+              </div>
               <p class="sellers-text">CHOCOLATE WITH FRUITS</p>
             </li>
             <li class="sellers-item">
-              <img src="./img/top-sellers/dark-choco.jpg" alt="DARK CHOCOLATE" class="sellers-img" />
+              <div class="sellers-cover-wrap">
+                <img src="./img/top-sellers/dark-choco.jpg" alt="DARK CHOCOLATE" class="sellers-img" />
+                <div class="sellers-text-wrap">
+                  <p class="sellers-cover-text">
+                    Dark chocolate is a rich and indulgent treat that is beloved by many chocolate enthusiasts. It is
+                    made from cocoa beans, which are roasted, ground, and then processed to produce chocolate liquor.
+                    Dark chocolate contains a higher percentage of cocoa solids compared to milk chocolate.
+                  </p>
+                </div>
+              </div>
               <p class="sellers-text">DARK CHOCOLATE</p>
             </li>
           </ul>
@@ -266,7 +325,7 @@
       <!-- ----SECTION LOVED---- -->
       <section class="section-loved">
         <div class="container">
-          <h2 class="loved-title span-orange"><span>chocolate</span>is loved</h2>
+          <h2 class="loved-title span-orange"><span>chocolate</span> is loved</h2>
           <ul class="loved-list">
             <li class="loved-item">
               <img src="./img/review/Victoria-min.png" alt="Victoria Dobrzhanska" class="loved-img" />
@@ -307,18 +366,23 @@
             <ul class="social-list">
               <li class="social-item">
                 <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
-                  ><img src="./img/header/instagram.svg" alt="inst" class="social-svg"
-                /></a>
+                  ><svg width="24" height="24" class="footer-soc-icons">
+                    <use href="./img/choko-proj.svg#icon-instagram"></use></svg
+                ></a>
               </li>
               <li class="social-item">
-                <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
-                  ><img src="./img/header/facebook.svg" alt="fb" class="social-svg"
-                /></a>
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <svg width="24" height="24" class="footer-soc-icons">
+                    <use href="./img/choko-proj.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li class="social-item">
-                <a href="" target="_blank" rel="noopener noreferrer" class="social-link"
-                  ><img src="./img/header/twitter.svg" alt="twitter" class="social-svg"
-                /></a>
+                <a href="" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <svg width="24" height="24" class="footer-soc-icons">
+                    <use href="./img/choko-proj.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -326,8 +390,10 @@
             <p class="contact-text">Contact us</p>
             <address class="footer-address">
               <ul class="address-footer-list">
-                <li class="address-item"><a href="tel:+380684439426" class="address-link">+380 (68) 443-94-26</a></li>
-                <li class="address-item">
+                <li class="address-item-footer">
+                  <a href="tel:+380684439426" class="address-link">+380 (68) 443-94-26</a>
+                </li>
+                <li class="address-item-footer">
                   <a href="mailto:simplychoc@gmail.com" class="address-link">simplychoc@gmail.com</a>
                 </li>
               </ul>
@@ -338,7 +404,7 @@
           <nav class="footer-nav">
             <ul class="footer-nav-list">
               <li class="footer-nav-item"><a href="#" class="footer-nav-link">Home</a></li>
-              <li class="footer-nav-item"><a href="#" class="footer-nav-link">How it’s made?</a></li>
+              <li class="footer-nav-item"><a href="#made" class="footer-nav-link">How it’s made?</a></li>
               <li class="footer-nav-item"><a href="#" class="footer-nav-link">Chocolate is loved</a></li>
             </ul>
           </nav>
