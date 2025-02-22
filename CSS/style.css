@@ -351,12 +351,29 @@ button {
 .taste-item {
   width: calc((100% - 32px * 3) / 4);
   padding: 28px 23px;
+  position: relative;
 }
 
 .taste-item:nth-child(4n + 1) {
   border-radius: 15px;
   background-color: #fd9222;
   color: #fff;
+}
+
+.arrow-btn {
+  background-color: blue;
+}
+.svg-arrow {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: block;
+  fill: transparent;
+  stroke: #fff;
+}
+
+.taste-item:nth-child(even) .svg-arrow {
+  stroke: #fd9222; /* Оранжевый цвет для каждой второй стрелки */
 }
 
 .taste-img {
