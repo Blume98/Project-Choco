@@ -18,6 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="./JS/open-modal.js" defer></script>
   </head>
 
   <body>
@@ -597,5 +598,75 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-svg">
+            <use href="./img/choko-proj.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title span-orange">
+          LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="input-svg-wrap">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                placeholder=""
+                class="modal-input"
+                required
+              />
+              <svg class="model-icons">
+                <use href="./img/choko-proj.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
+            <div class="input-svg-wrap">
+              <input
+                id="user-email"
+                name="user-email"
+                type="email"
+                class="modal-input"
+                required
+              />
+              <svg class="model-icons">
+                <use href="./img/choko-proj.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-tel" class="modal-label">Phone number</label>
+            <div class="input-svg-wrap">
+              <input
+                id="user-tel"
+                name="user-tel"
+                type="tel"
+                class="modal-input"
+                required
+              />
+              <svg class="model-icons">
+                <use href="./img/choko-proj.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Enter text"
+            ></textarea>
+            <button class="model-btn" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
