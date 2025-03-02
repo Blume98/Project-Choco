@@ -350,8 +350,9 @@ button {
 }
 .taste-item {
   width: calc((100% - 32px * 3) / 4);
-  padding: 28px 23px;
   position: relative;
+  padding: 28px 23px;
+  border-radius: 15px;
 }
 
 .taste-item:nth-child(4n + 1) {
@@ -361,13 +362,13 @@ button {
 }
 
 .arrow-btn {
-  background-color: blue;
-}
-.svg-arrow {
   position: absolute;
   top: 14px;
   right: 14px;
   display: block;
+  background-color: transparent;
+}
+.svg-arrow {
   fill: transparent;
   stroke: #fff;
 }
@@ -390,17 +391,14 @@ button {
 }
 
 .taste-item:nth-child(4n + 1) {
-  border-radius: 15px;
   background-color: #fd9222;
   color: #fff;
 }
 
 .taste-item:nth-child(2n) {
-  border-radius: 15px;
   border: 1px solid #fd9222;
 }
 .taste-item:nth-child(4n + 3) {
-  border-radius: 15px;
   background-color: #1e1823;
   color: #fff;
 }
