@@ -296,14 +296,36 @@
       </section>
       <!-- --------------------- -->
       <!-- -----SECTION MADE---- -->
-      <!-- <section id="made" class="section-made">
-        <div class="container">
+      <section id="made" class="section-made">
+        <div class="container made-container">
           <h2 class="made-title span-orange">
             hOW IT’S
             <span>made?</span>
           </h2>
           <div class="made-content">
-            <img src="./img/made/choko.jpg" alt="choko" class="made-img" />
+            <picture>
+              <source
+                srcset="
+                  ./img/made/imagemade-mob-min.jpg   1x,
+                  ./img/made/imagemade-mob2x-min.jpg 2x
+                "
+                media="(max-width: 767.98px)"
+              />
+              <source
+                srcset="./img/made/choko.jpg 1x, ./img/made/imagemade-desk2x-min.jpg 2x"
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./img/made/imagemade-tab.webp   1x,
+                  ./img/made/imagemade-tab2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+
+              <img src="./img/made/choko.jpg" alt="choko" class="made-img" />
+            </picture>
+
             <div class="made-text-container">
               <h3 class="made-subtitle">
                 Try our chocolates today and discover the perfect balance of flavor
@@ -341,10 +363,10 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- --------------------- -->
       <!-- ------------SECTION PRODUCTS------ -->
-      <!-- <section class="section-products">
+      <section class="section-products">
         <div class="container">
           <h2 class="products-title span-orange">
             Our
@@ -353,6 +375,10 @@
           <ul class="products-list">
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/orange-choc.png       1x,
+                  ./img/products/img-1orange2x-min.png 2x
+                "
                 src="./img/products/orange-choc.png"
                 alt="chocolate orange"
                 class="products-img"
@@ -363,6 +389,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/apple-choc.png       1x,
+                  ./img/products/img-2apple2x-min.png 2x
+                "
                 src="./img/products/apple-choc.png"
                 alt="chocolate apple"
                 class="products-img"
@@ -373,6 +403,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/lime-choc.png       1x,
+                  ./img/products/img-3lime2x-min.png 2x
+                "
                 src="./img/products/lime-choc.png"
                 alt="lime chocolate"
                 class="products-img"
@@ -383,6 +417,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/pineapple-choc.png       1x,
+                  ./img/products/img-4pineapple2x-min.png 2x
+                "
                 src="./img/products/pineapple-choc.png"
                 alt="pineapple chocolate"
                 class="products-img"
@@ -393,6 +431,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/classic-choc.png       1x,
+                  ./img/products/img-5classic2x-min.png 2x
+                "
                 src="./img/products/classic-choc.png"
                 alt="Classic dark chocolate"
                 class="products-img"
@@ -403,6 +445,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/honey-choc.png       1x,
+                  ./img/products/img-6honey2x-min.png 2x
+                "
                 src="./img/products/honey-choc.png"
                 alt="honey chocolate"
                 class="products-img"
@@ -413,6 +459,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/roasted-choc.png       1x,
+                  ./img/products/img-7roasted2x-min.png 2x
+                "
                 src="./img/products/roasted-choc.png"
                 alt="roasted fruits chocolate"
                 class="products-img"
@@ -423,6 +473,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./img/products/classic-white.png    1x,
+                  ./img/products/img-8white2x-min.png 2x
+                "
                 src="./img/products/classic-white.png"
                 alt="Classic white chocolate"
                 class="products-img"
@@ -433,10 +487,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- --------------------- -->
       <!-- -----SECTION SELLERS----- -->
-      <!-- <section class="section-sellers">
+      <section class="section-sellers">
         <div class="container">
           <h2 class="sellers-title span-orange">
             <span>tOp</span>
@@ -445,11 +499,35 @@
           <ul class="sellers-list">
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
-                <img
-                  src="./img/top-sellers/choco-nuts.jpg"
-                  alt="CHOCOLATE WITH NUTS"
-                  class="sellers-img"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/top-sellers/img02nuts-mob1x.webp 1x,
+                      ./img/top-sellers/img02nuts-mob2x.webp 2x
+                    "
+                    media="(max-width:767.98px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/top-sellers/choco-nuts.jpg        1x,
+                      ./img/top-sellers/img-1nuts-desk2x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/top-sellers/img-1nuts-tab1x.webp 1x,
+                      ./img/top-sellers/img-1nuts-tab2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <img
+                    src="./img/top-sellers/choco-nuts.jpg"
+                    alt="CHOCOLATE WITH NUTS"
+                    class="sellers-img"
+                  />
+                </picture>
+
                 <div class="sellers-text-wrap">
                   <p class="sellers-cover-text">
                     Chocolate with nuts is a delectable combination that brings together
@@ -463,11 +541,29 @@
             </li>
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
-                <img
-                  src="./img/top-sellers/choco-fruits.jpg"
-                  alt="CHOCOLATE WITH FRUITS"
-                  class="sellers-img"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./img/top-sellers/choco-fruits.jpg        1x,
+                      ./img/top-sellers/img-2fruits-desk2x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/top-sellers/img-2fruits-tab1x.webp 1x,
+                      ./img/top-sellers/img-2fruits-tab2x.webp 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+
+                  <img
+                    src="./img/top-sellers/choco-fruits.jpg"
+                    alt="CHOCOLATE WITH FRUITS"
+                    class="sellers-img"
+                  />
+                </picture>
+
                 <div class="sellers-text-wrap">
                   <p class="sellers-cover-text">
                     Chocolate with fruit is an unbeatable combination of two of the
@@ -482,6 +578,10 @@
             <li class="sellers-item">
               <div class="sellers-cover-wrap">
                 <img
+                  srcset="
+                    ./img/top-sellers/dark-choco.jpg        1x,
+                    ./img/top-sellers/img-3dark-desk2x.webp 2x
+                  "
                   src="./img/top-sellers/dark-choco.jpg"
                   alt="DARK CHOCOLATE"
                   class="sellers-img"
@@ -500,7 +600,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- --------------------- -->
       <!-- ----SECTION LOVED---- -->
       <!-- <section class="section-loved">
