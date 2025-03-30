@@ -603,7 +603,7 @@
       </section>
       <!-- --------------------- -->
       <!-- ----SECTION LOVED---- -->
-      <!-- <section class="section-loved">
+      <section class="section-loved">
         <div class="container">
           <h2 class="loved-title span-orange">
             <span>chocolate</span>
@@ -612,6 +612,10 @@
           <ul class="loved-list">
             <li class="loved-item">
               <img
+                srcset="
+                  ./img/review/Victoria-min.png            1x,
+                  ./img/review/Ellipsevictoria-desk2x.webp 2x
+                "
                 src="./img/review/Victoria-min.png"
                 alt="Victoria Dobrzhanska"
                 class="loved-img"
@@ -624,6 +628,10 @@
             </li>
             <li class="loved-item">
               <img
+                srcset="
+                  ./img/review/Nazar-min.png            1x,
+                  ./img/review/Ellipsenazar-desk2x.webp 2x
+                "
                 src="./img/review/Nazar-min.png"
                 alt="Nazar Babenko"
                 class="loved-img"
@@ -636,6 +644,10 @@
             </li>
             <li class="loved-item">
               <img
+                srcset="
+                  ./img/review/Olena-min.png            1x,
+                  ./img/review/Ellipseolena-desk2x.webp 2x
+                "
                 src="./img/review/Olena-min.png"
                 alt="Olena Kampusch"
                 class="loved-img"
@@ -649,57 +661,77 @@
           </ul>
           <button type="button" class="loved-btn">Leave a review</button>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- --------------------- -->
     <!-- -------FOOTER-------- -->
-    <!-- <footer id="footer" class="footer">
+    <footer id="footer" class="footer">
       <div class="container">
         <div class="upper-container-footer">
           <p class="footer-text span-orange">
             <span>Chocolate</span>
             a delicious cure for a bad day
           </p>
-          <div class="social-container">
-            <p class="social-text">Social networks</p>
-            <ul class="social-list">
-              <li class="social-item">
-                <a href="" target="_blank" rel="noopener noreferrer" class="social-link">
-                  <svg width="24" height="24" class="footer-soc-icons">
-                    <use href="./img/choko-proj.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="" target="_blank" rel="noopener noreferrer" class="social-link">
-                  <svg width="24" height="24" class="footer-soc-icons">
-                    <use href="./img/choko-proj.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="" target="_blank" rel="noopener noreferrer" class="social-link">
-                  <svg width="24" height="24" class="footer-soc-icons">
-                    <use href="./img/choko-proj.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="contact-container">
-            <p class="contact-text">Contact us</p>
-            <address class="footer-address">
-              <ul class="address-footer-list">
-                <li class="address-item-footer">
-                  <a href="tel:+380684439426" class="address-link">+380 (68) 443-94-26</a>
+
+          <div class="contact-link-container">
+            <div class="contact-container">
+              <p class="contact-text">Contact us</p>
+              <address class="footer-address">
+                <ul class="address-footer-list">
+                  <li class="address-item-footer">
+                    <a href="tel:+380684439426" class="address-link"
+                      >+380 (68) 443-94-26</a
+                    >
+                  </li>
+                  <li class="address-item-footer">
+                    <a href="mailto:simplychoc@gmail.com" class="address-link">
+                      simplychoc@gmail.com
+                    </a>
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="social-container">
+              <p class="social-text">Social networks</p>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg width="24" height="24" class="footer-soc-icons">
+                      <use href="./img/choko-proj.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="address-item-footer">
-                  <a href="mailto:simplychoc@gmail.com" class="address-link">
-                    simplychoc@gmail.com
+                <li class="social-item">
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg width="24" height="24" class="footer-soc-icons">
+                      <use href="./img/choko-proj.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg width="24" height="24" class="footer-soc-icons">
+                      <use href="./img/choko-proj.svg#icon-twitter"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
         </div>
         <div class="lower-container-footer">
@@ -712,11 +744,17 @@
                 <a href="#made" class="footer-nav-link">How it’s made?</a>
               </li>
               <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Our products</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">Top sellers</a>
+              </li>
+              <li class="footer-nav-item">
                 <a href="#" class="footer-nav-link">Chocolate is loved</a>
               </li>
             </ul>
           </nav>
-          <form>
+          <form class="form-container">
             <input
               type="email"
               name="email-input"
@@ -736,7 +774,8 @@
           </svg>
         </button>
         <p class="modal-title span-orange">
-          LEAVE A REVIEW ABOUT
+          LEAVE A REVIEW <br />
+          ABOUT
           <span>OUR CHOCOLATE</span>
         </p>
         <form class="modal-form">
@@ -795,7 +834,7 @@
               placeholder="Enter text"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="privacy-container">
             <input
               type="checkbox"
               name="policy"
@@ -809,13 +848,15 @@
                   <use href="./img/choko-proj.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <div>
+                <p>I accept the terms and conditions of the</p>
+                <a href="">Privacy Policy</a>
+              </div>
             </label>
           </div>
           <button class="model-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
