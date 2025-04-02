@@ -230,6 +230,7 @@ button {
   font-weight: 600;
   line-height: normal;
   margin-right: 14px;
+  cursor: pointer;
   transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
 }
 
@@ -1082,13 +1083,16 @@ button {
   line-height: 1.33;
   letter-spacing: -0.02em;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .check-text a {
   color: #fd9222;
   text-decoration: underline;
+  margin-left: 32px;
 }
-.check-text span {
+.container-check {
   width: 20px;
   height: 20px;
   border-radius: 6px;
@@ -1100,7 +1104,7 @@ button {
   fill: transparent;
 }
 
-.check-input:checked + .check-text span {
+.check-input:checked + .check-text .container-check {
   fill: #fff;
   background-color: #fd9222;
   border: none;
@@ -1512,12 +1516,10 @@ button {
 
   .check-text {
     font-size: 14px;
-    align-items: center;
   }
 
-  .check-text div {
-    display: flex;
-    gap: 3px;
+  .check-text a {
+    margin-left: 3px;
   }
 
   .model-btn {
