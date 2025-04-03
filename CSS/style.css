@@ -830,6 +830,17 @@ button {
   transition: border-color 300ms ease-in-out;
 }
 
+.input-email:-webkit-autofill {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 1000px #1e1823 inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+.input-email:-moz-autofill {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
 .input-email:focus {
   border-color: #fd9222;
   background-color: transparent;
