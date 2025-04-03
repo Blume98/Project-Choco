@@ -1571,6 +1571,10 @@ button {
     padding-bottom: 50px;
   }
 
+  .features-text {
+    line-height: 1.29;
+  }
+
   .features-list {
     flex-wrap: nowrap;
     gap: 88px;

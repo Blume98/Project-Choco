@@ -7,6 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      as="font"
+      type="font/woff2"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
@@ -18,6 +24,16 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="preload"
+      href="https://blume98.github.io/Project-Choco/img/hero-bg/chocolate_mainmob-min.webp"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="https://blume98.github.io/Project-Choco/img/hero-bg/chocolate_mainmob2x-min.webp"
+      as="image"
+    />
     <script src="./JS/open-modal.js" defer></script>
   </head>
 
@@ -45,7 +61,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="btn-open-menu">
+        <button type="button" class="btn-open-menu" aria-label="Open menu">
           <svg width="28" height="28" class="icon-burger">
             <use href="./img/choko-proj.svg#icon-burger-menu"></use>
           </svg>
@@ -57,6 +73,7 @@
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Instagram page"
               >
                 <svg class="header-soc-icons">
                   <use href="./img/choko-proj.svg#icon-instagram"></use>
@@ -68,6 +85,7 @@
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
               >
                 <svg class="header-soc-icons">
                   <use href="./img/choko-proj.svg#icon-facebook"></use>
@@ -75,7 +93,12 @@
               </a>
             </li>
             <li class="address-item">
-              <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our X page"
+              >
                 <svg class="header-soc-icons">
                   <use href="./img/choko-proj.svg#icon-twitter"></use>
                 </svg>
@@ -179,7 +202,11 @@
           </p>
           <ul class="taste-list">
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -191,14 +218,18 @@
                 "
                 class="taste-img"
                 src="./img/taste/img-choco.webp"
-                alt="MILK CHOCOLATE"
+                alt="Chocolate Bar"
                 width="214"
                 height="160"
               />
               <h3 class="taste-subtitle">MILK CHOCOLATE</h3>
             </li>
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -207,14 +238,18 @@
                 srcset="./img/taste/img-milk.webp 1x, ./img/taste/img-2milk2x-min.webp 2x"
                 class="taste-img"
                 src="./img/taste/img-milk.webp"
-                alt="MILK"
+                alt="Bottle of Milk"
                 width="214"
                 height="160"
               />
               <h3 class="taste-subtitle">MILK</h3>
             </li>
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -223,14 +258,18 @@
                 srcset="./img/taste/img-nuts.webp 1x, ./img/taste/img-3nuts2x-min.webp 2x"
                 class="taste-img"
                 src="./img/taste/img-nuts.webp"
-                alt="NUTS"
+                alt="A Few Nuts"
                 width="214"
                 height="160"
               />
               <h3 class="taste-subtitle">NUTS</h3>
             </li>
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -239,14 +278,18 @@
                 srcset="./img/taste/img-semi.webp 1x, ./img/taste/img-4semi2x-min.webp 2x"
                 class="taste-img"
                 src="./img/taste/img-semi.webp"
-                alt="SEMI - SWEET CHOCOLATE"
+                alt="Chocolate Beans"
                 width="214"
                 height="160"
               />
               <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
             </li>
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -258,14 +301,18 @@
                 "
                 class="taste-img"
                 src="./img/taste/img-cacao.webp"
-                alt="CACAO"
+                alt="A Few Cocoa Beans"
                 width="214"
                 height="160"
               />
               <h3 class="taste-subtitle">CACAO</h3>
             </li>
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -277,14 +324,18 @@
                 "
                 class="taste-img"
                 src="./img/taste/img-raspb.webp"
-                alt="RASPBERRY"
+                alt="Four Raspberries"
                 width="214"
                 height="160"
               />
               <h3 class="taste-subtitle">RASPBERRY</h3>
             </li>
             <li class="taste-item">
-              <button type="button" class="arrow-btn">
+              <button
+                type="button"
+                class="arrow-btn"
+                aria-label="Flip container to show product details"
+              >
                 <svg width="24" height="24" class="svg-arrow">
                   <use href="./img/choko-proj.svg#icon-arrow"></use>
                 </svg>
@@ -296,7 +347,7 @@
                 "
                 class="taste-img"
                 src="./img/taste/img-coco.webp"
-                alt="COCONUT OIL"
+                alt="Coconut Oil"
                 width="214"
                 height="160"
               />
@@ -711,6 +762,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="social-link"
+                    aria-label="Visit our Instagram profile"
                   >
                     <svg width="24" height="24" class="footer-soc-icons">
                       <use href="./img/choko-proj.svg#icon-instagram"></use>
@@ -723,6 +775,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="social-link"
+                    aria-label="Visit our Facebook page"
                   >
                     <svg width="24" height="24" class="footer-soc-icons">
                       <use href="./img/choko-proj.svg#icon-facebook"></use>
@@ -735,6 +788,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="social-link"
+                    aria-label="Visit our X profile"
                   >
                     <svg width="24" height="24" class="footer-soc-icons">
                       <use href="./img/choko-proj.svg#icon-twitter"></use>
@@ -904,6 +958,7 @@
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Instagram page"
               >
                 <svg class="burger-soc-icons">
                   <use href="./img/choko-proj.svg#icon-instagram"></use>
@@ -915,6 +970,7 @@
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
               >
                 <svg class="burger-soc-icons">
                   <use href="./img/choko-proj.svg#icon-facebook"></use>
@@ -922,7 +978,12 @@
               </a>
             </li>
             <li class="address-item">
-              <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our X page"
+              >
                 <svg class="burger-soc-icons">
                   <use href="./img/choko-proj.svg#icon-twitter"></use>
                 </svg>
