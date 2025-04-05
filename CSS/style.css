@@ -178,21 +178,14 @@ button {
   border-radius: 30px;
   background-color: rgba(17, 17, 17, 0.6);
   background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
-    url(../img/hero-bg/chocolate_mainmob-min.webp);
+    image-set(
+      url(../img/hero-bg/chocolate_mainmob-min.webp) 1x,
+      url(../img/hero-bg/chocolate_mainmob2x-min.webp) 2x
+    );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 395px 20px 20px 20px;
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 2dppx),
-  (min-resolution: 192dpi) {
-  .container-hero {
-    background-color: rgba(17, 17, 17, 0.6);
-    background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
-      url(../img/hero-bg/chocolate_mainmob2x-min.webp);
-  }
 }
 
 .title-hero {
@@ -1203,17 +1196,10 @@ button {
     padding: 671px 40px 40px 40px;
     background-color: rgba(17, 17, 17, 0.6);
     background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
-      url(../img/hero-bg/chocolate_maintab-min.webp);
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-    .container-hero {
-      background-color: rgba(17, 17, 17, 0.6);
-      background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
-        url(../img/hero-bg/chocolate_maintab2x-min.webp);
-    }
+      image-set(
+        url(../img/hero-bg/chocolate_maintab-min.webp) 1x,
+        url(../img/hero-bg/chocolate_maintab2x-min.webp) 2x
+      );
   }
 
   .title-hero {
@@ -1551,17 +1537,10 @@ button {
     padding: 381px 40px 40px 40px;
     background-color: rgba(17, 17, 17, 0.6);
     background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
-      url(../img/hero-bg/chocolate_main.webp);
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    (min-resolution: 2dppx),
-    (min-resolution: 192dpi) {
-    .container-hero {
-      background-color: rgba(17, 17, 17, 0.6);
-      background-image: linear-gradient(rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4)),
-        url(../img/hero-bg/chocolate_maindesk2x-min.webp);
-    }
+      image-set(
+        url(../img/hero-bg/chocolate_main.webp) 1x,
+        url(../img/hero-bg/chocolate_maindesk2x-min.webp) 2x
+      );
   }
 
   /* ---------FEATURE DESK--------- */
